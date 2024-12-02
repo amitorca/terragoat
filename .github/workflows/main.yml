@@ -1,5 +1,6 @@
 name: Finance Apps Orca IaC Scan Workflow
 on:
+  workflow_dispatch # Allow manual triggers
   # Trigger the workflow on push request,
   # but only for the master branch
   push:
